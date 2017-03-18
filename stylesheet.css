@@ -1,0 +1,122 @@
+.bottomContent{
+	padding-top: 30px;
+}
+.paddedWords{
+	padding: 60px;
+}
+
+.frontPageIcons{
+	display: block;
+    margin: auto;
+	height:90px;
+	width:125px;	
+}
+.topContent{
+	padding: 0px;
+	margin:0px;
+	height:800px;
+	background: url("img/house1.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.secondPicture{
+	padding: 0px;
+	margin:0px;
+	height:600px;
+	background: url("img/house5.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.frontPageHouses{
+	height:220px;
+	width:350px;
+}
+
+.nav-link{
+	color:#BF607E;
+}
+h1{
+	color:#780B2E;
+}
+
+h2{
+	color:#D24B76;
+}
+p{
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    color:#BF607E;
+}
+header {
+	width: 100%;
+	height: 76px;
+	top: 0;
+	left: 0;
+	border-bottom: 4px solid #BF607E;
+	z-index: 100;
+}
+a {
+	color: #721331;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #721331;
+}
+nav {
+	float: right;
+	padding: 20px;	
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px
+}
+
+@media (max-width: 768px) {
+}
+
+@media only screen and (max-width : 640px) {
+
+	header {
+		position: absolute;
+	}
+
+	nav ul, nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul {
+		display: block;
+	}
+
+}
+
+@media only screen and (max-width : 640px) {
+
+	.topContent{
+  		margin-top: 76px;
+  	}
+
+  	.resizableImage{
+		height:300px;
+	}
+}
